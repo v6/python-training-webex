@@ -2,4 +2,9 @@
  
 # The above line is not necessary for Windows, because paths are configured globally...
 
-print ('hello world')
+import subprocess
+
+if 1 == 2:
+    print ('hello world')
+else:
+    print ('thats crazy talk')
