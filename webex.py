@@ -4,17 +4,23 @@
 
 import subprocess
 
-crazy_variable = 1
+my_command = subprocess.call(['ls', '-a'])
+
+crazy_variable = 10000000
 
 sane_variable = 2
 
+what_to_print = ''
+
 if crazy_variable == sane_variable:
-    print ('hello world')
+    what_to_print = 'hello world'
 else:
     print ('thats crazy talk')
 
 
-if 5*5 == 25: 
+if crazy_variable*crazy_variable == 25: 
     print ('this is NOT crazy talk')
 else: 
     print ('thats crazy talk')
+
+print (what_to_print)
