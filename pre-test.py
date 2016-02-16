@@ -21,13 +21,12 @@ The new values of a and b are:
 Consider the following program fragment.
 
 if mark > 80: grade = 'A'
-else if mark > 60: grade = 'B'
-else if mark > 40: grade = 'C'
+elif mark > 60: grade = 'B'
+elif mark > 40: grade = 'C'
 else: grade = 'F'
 
 What is the effect of executing this code if the variable
-mark
-has the value -12?
+mark has the value -12?
 (a) The program will crash.
 (b) The program will output an error message.
 (c) The variable grade will be undefined.
