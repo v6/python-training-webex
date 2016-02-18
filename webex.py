@@ -33,6 +33,7 @@ def crazy_talk(): #{ start of function
         print ('thats crazy talk')
     if crazy_variable*crazy_variable == 25: 
         print ('this is NOT crazy talk')
+    elif 1 == 1: print('no error')
     else: 
         print ('thats crazy talk')
     
